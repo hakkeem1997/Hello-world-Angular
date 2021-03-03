@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <script>
+      let list=[{
+          name:'apple',
+          price:10
+      },
+      {
+          name:'mango',
+          price:20
+      }, 
+            {name:'orange',
+            price:25}]
+            localStorage.setItem('list',JSON.stringify(list));
+
+  </script>  
+</head>
+<body>
+</body>
